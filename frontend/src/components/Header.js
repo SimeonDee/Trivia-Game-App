@@ -30,6 +30,13 @@ class Header extends Component {
         >
           Add
         </h2>
+         <h2
+          onClick={() => {
+            this.navTo('/addcategory');
+          }}
+        >
+          New Category
+        </h2>
         <h2
           onClick={() => {
             this.navTo('/play');
