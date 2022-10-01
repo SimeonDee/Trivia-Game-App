@@ -65,8 +65,8 @@ flask run --reload
 
 On Windows:
 ```bash
-PATH=PATH;FLASK_APP=flaskr
-PATH=PATH;FLASK_DEBUG=true
+set FLASK_APP=flaskr
+set FLASK_DEBUG=true
 flask run --reload
 ```
 
